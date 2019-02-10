@@ -1,0 +1,85 @@
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.bg-custom
+{
+  background: linear-gradient(135deg, rgba(255,255,255,1) 38%,rgba(38,160,191,1) 9%,rgba(13,50,68,1) 96%);
+  font-weight: bold;
+  
+}
+#jumbo
+{
+  background-image: url("http://localhost/twitter/views/twitter.png");
+  height: 315px;
+}
+.colour
+{
+  color: #f5f5f5 !important;
+
+}
+.bg-col
+{
+  background: rgba(13,50,68,1) ;
+  color:white;
+}
+.btn-outline-info
+{
+  color: rgb(173, 224, 253);
+  font-weight: bold;
+}
+.footer
+ {
+    background-color: #f5f5f5;
+    clear: both;
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
+
+ }
+ .forgot
+ {
+   color:rgba(38,160,191,1);
+ }
+
+ #error
+  {
+       display: none;
+       text-align: center;
+       border-radius: 0;
+       background-color: rgba(255, 240, 194, 0.637);
+   
+  }
+ 
+  .card
+  {
+    padding: 10px;
+  }
+  .card:hover
+  {
+    background: rgba(185, 212, 219, 0.329);;
+  }
+  #close
+   {
+       margin-left: 380px;
+   }
+     .notes
+     {
+       margin-left: 30px;
+     }
+     .ho
+     {
+        padding: 20px;
+        padding-top:30px;
+        margin: 40px;       
+     }
+    #tweetSuccess
+    {
+      display:none;
+    }
+    #tweetFail
+    {
+      display:none;
+    }
